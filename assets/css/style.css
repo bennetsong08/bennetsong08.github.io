@@ -1,10 +1,19 @@
-/**
-* Template Name: DevFolio
-* Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+@font-face {
+  font-family: 'Brandon';
+  src: url("/assets/fonts/brandon-grotesque/HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Brandon';
+  src: url("/assets/fonts/brandon-grotesque/HvDTrial_Brandon_Grotesque_bold-BF64a625c9151d5.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Brandon';
+  src: url("/assets/fonts/brandon-grotesque/HvDTrial_Brandon_Grotesque_regular_italic-BF64a625c94445e.otf") format("opentype");
+  font-style: italic;
+}
 
 /*--------------------------------------------------------------
 # General
@@ -21,6 +30,7 @@ h4,
 h5,
 h6 {
   color: #1e1e1e;
+  font-family: 'Brandon';
 }
 
 a {
@@ -100,7 +110,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #2f2f2f;
 }
 
 .overlay-mf {
