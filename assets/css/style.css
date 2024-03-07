@@ -15,7 +15,22 @@
   font-style: italic;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/assets/fonts/Open_Sans/static/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/assets/fonts/Open_Sans/static/OpenSans-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/assets/fonts/Open_Sans/static/OpenSans-Italic.ttf");
+  font-style: italic;
+}
 
 /*--------------------------------------------------------------
 # General
@@ -26,7 +41,7 @@ body {
 }
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
 }
 
 h1,
