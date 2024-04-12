@@ -131,7 +131,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #2f2f2f;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .overlay-mf {
@@ -913,8 +913,13 @@ a:hover {
 }
 
 @keyframes animate {
-  from { width: 0%; }
-  to { width: calc(var(--percentage) * 1%); }
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: calc(var(--percentage) * 1%);
+  }
 }
 
 /*--------------------------------------------------------------
