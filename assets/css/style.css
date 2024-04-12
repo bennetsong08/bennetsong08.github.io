@@ -974,6 +974,10 @@ a:hover {
   object-fit: contain;
 }
 
+.work-img.index img {
+  object-fit: cover;
+}
+
 .work-content {
   padding: 2rem 3% 1rem 4%;
 }
