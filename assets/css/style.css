@@ -869,6 +869,10 @@ a:hover {
   padding-bottom: 4rem;
 }
 
+.col-sm-8 {
+  width: 100%;
+}
+
 .about-mf .col-md-5 {
   width: 200px;
 }
@@ -1012,6 +1016,7 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+  width: 100%;
 }
 
 .index-w-title {
@@ -1033,6 +1038,7 @@ a:hover {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -1420,4 +1426,11 @@ footer .credits {
 footer .credits p {
   color: #fff;
   font-size: 1rem;
+}
+
+i, em {
+  font-style: italic;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }
